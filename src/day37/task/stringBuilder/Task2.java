@@ -4,14 +4,20 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class Task2 {
-    // this method will reverse your string
-    public String reverseString(String yourString){
+    // write a method that will reverse your string
+    public String reverseString(String yourString) {
+        // write you code here
+        StringBuilder sb = new StringBuilder(yourString);
 
-        return "MADA";
+//        StringBuilder reverse = sb.reverse();
+//        String result = reverse.toString();
+
+        return sb.reverse().toString();
+        // end of your code
     }
 
     @Test
-    public void test1(){
+    public void test1() {
         // Given
         String s1 = "something";
 
@@ -23,7 +29,7 @@ public class Task2 {
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         // Given
         String s1 = "ADAM";
 
@@ -35,7 +41,7 @@ public class Task2 {
     }
 
     @Test
-    public void test3(){
+    public void test3() {
         // Given
         String s1 = "";
 
@@ -47,7 +53,7 @@ public class Task2 {
     }
 
     @Test
-    public void test4(){
+    public void test4() {
         // Given
         String s1 = "-1";
 
