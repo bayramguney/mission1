@@ -1,10 +1,9 @@
-package day37.example;
+package day37.example.constructors;
 
-import day37.example.objects.Food;
-import day37.example.objects.Ingredient;
+import day37.example.constructors.objects.Food;
+import day37.example.constructors.objects.Ingredient;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Ex4 {
     public static void main(String[] args) {

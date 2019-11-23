@@ -1,6 +1,4 @@
-package day37.example;
-
-import java.util.Arrays;
+package day37.example.constructors;
 
 class Calculator {
 

@@ -1,4 +1,4 @@
-package day37.example.objects;
+package day37.example.constructors.objects;
 
 public class Ingredient {
     public String name;

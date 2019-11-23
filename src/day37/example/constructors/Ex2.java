@@ -1,4 +1,4 @@
-package day37.example;
+package day37.example.constructors;
 
 class MyInteger {
 

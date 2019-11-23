@@ -1,7 +1,7 @@
-package day37.example;
+package day37.example.constructors;
 
-import day37.example.objects.Profile;
-import day37.example.objects.User;
+import day37.example.constructors.objects.Profile;
+import day37.example.constructors.objects.User;
 
 public class Ex3 {
     public static void main(String[] args) {

@@ -1,6 +1,5 @@
-package day37.example.objects;
+package day37.example.constructors.objects;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Food {
