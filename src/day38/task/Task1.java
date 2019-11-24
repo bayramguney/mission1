@@ -12,7 +12,7 @@ class Counter {
     public static int count = 0;
 
     public Counter() {
-        System.out.println("Default Constructor");
+        count++;
         System.out.println("Count is: " + count);
     }
 }
@@ -20,9 +20,8 @@ class Counter {
 public class Task1 {
     public static void main(String[] args) {
         Counter c1 = new Counter();
-        c1.count++;
-
-        System.out.println("--------------------------");
         Counter c2 = new Counter();
+        Counter c3 = new Counter();
+
     }
 }
