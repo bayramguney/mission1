@@ -6,21 +6,45 @@ import java.util.Random;
 
 public class ExamplePrivate2 {
 
-    public int sumListOfRandomIntegers() {
-        // generating list of random numbers
-        List<Integer> numbers = populateList(new ArrayList<>());
 
-        // sum list of numbers
-        // Task, try to make second part of sumOfList also private
-        int sum = 0;
-        for (Integer integer : numbers) {
-            sum += integer;
+
+    public int sumListOfRandomIntegersFirst(){
+        // generating list of random numbers
+        Random random = new Random();
+        List<Integer> numbers = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            numbers.add(random.nextInt(50));
         }
 
-        return sum;
+        // sum list of numbers
+        int sumOfRandomNumbers = 0;
+        for (Integer integer : numbers) {
+            sumOfRandomNumbers += integer;
+        }
+
+        return sumOfRandomNumbers;
     }
 
-    private List<Integer> populateList(List<Integer> list) {
+
+    
+    public int sumListOfRandomIntegers() {
+        // generating list of random numbers
+        List<Integer> numbers = generateRandomList(new ArrayList<>());
+
+        // sum list of numbers
+        int sumOfRandomNumber = sum(numbers);
+
+        return sumOfRandomNumber;
+    }
+
+    private int sum(List<Integer> list) {
+        int sum = 0;
+        for (Integer integer : list) {
+            sum += integer;
+        }
+        return sum;
+    }
+    private List<Integer> generateRandomList(List<Integer> list) {
         Random random = new Random();
         for (int i = 0; i < 10; i++) {
             list.add(random.nextInt(50));
