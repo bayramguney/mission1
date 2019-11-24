@@ -1,4 +1,4 @@
-package day38.example.packagePrivate.two;
+package day38.example.packagePrivateModifier.two;
 
 
 //import packagePrivate.one.Person;

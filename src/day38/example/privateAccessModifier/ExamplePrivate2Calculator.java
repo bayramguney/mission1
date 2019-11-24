@@ -1,4 +1,4 @@
-package day38.example;
+package day38.example.privateAccessModifier;
 
 import java.util.ArrayList;
 import java.util.List;

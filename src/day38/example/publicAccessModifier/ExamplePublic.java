@@ -1,4 +1,4 @@
-package day38.example;
+package day38.example.publicAccessModifier;
 
 import day38.example.models.publicModels.Person;
 

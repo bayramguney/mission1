@@ -1,4 +1,4 @@
-package day38.example.packagePrivate.one;
+package day38.example.packagePrivateModifier.one;
 
 class Person {
 
