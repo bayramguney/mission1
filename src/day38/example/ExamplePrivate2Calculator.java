@@ -6,13 +6,13 @@ import java.util.Random;
 
 public class ExamplePrivate2Calculator {
 
-    public int sumListOfRandomIntegersSIMPLER() {
+    public int sumListOfRandomIntegerSIMPLER() {
         return sum(getRandomIntegers());
     }
 
     public int sumListOfRandomIntegersFirst() {
         List<Integer> numbers = getRandomIntegers(); // generating list of random numbers
-        int sumOfRandomNumbers = sum(numbers); // sum list of numbers
+        int sumOfRandomNumbers = sum(getRandomIntegers()); // sum list of numbers
         return sumOfRandomNumbers;
     }
 
