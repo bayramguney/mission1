@@ -1,6 +1,7 @@
 package day38.example.staticModifier.main;
 
-import staticModifier.one.Person;
+
+import day38.example.staticModifier.one.Person;
 
 public class Application {
 
