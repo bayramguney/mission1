@@ -1,6 +1,6 @@
 package day38.example;
 
-import day38.example.models.Person;
+import day38.example.models.publicModels.Person;
 
 public class ExamplePublic {
 
