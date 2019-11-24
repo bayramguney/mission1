@@ -6,21 +6,21 @@ import java.util.Random;
 
 public class ExamplePrivate2 {
 
-    public int sumListOfRandomIntegers(){
+    public int sumListOfRandomIntegers() {
         // generating list of random numbers
-        List<Integer> numbers = new ArrayList<>();
-        numbers = populateList(numbers);
+        List<Integer> numbers = populateList(new ArrayList<>());
 
         // sum list of numbers
+        // Task, try to make second part of sumOfList also private
         int sum = 0;
         for (Integer integer : numbers) {
-            sum+=integer;
+            sum += integer;
         }
 
         return sum;
     }
 
-    private List<Integer> populateList(List<Integer> list){
+    private List<Integer> populateList(List<Integer> list) {
         Random random = new Random();
         for (int i = 0; i < 10; i++) {
             list.add(random.nextInt(50));
