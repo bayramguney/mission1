@@ -7,7 +7,7 @@ public class AccessModifiersAndNonAccessModifiersIntroOOP {
     // public
     // private
     // protected
-    // default package
+    // default package/no modifier
 
     // static
     // final
