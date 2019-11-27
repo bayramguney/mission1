@@ -7,7 +7,7 @@ public class ArrayEquality1 {
 
         boolean condition = true;
         for (int i = 0; i < a.length; i++) {
-            if (!a[i].equals(b[i])) {//a[i] != b[i]
+            if (! a[i].equals(b[i])) {//a[i] != b[i]
                 condition = false;
                 //break;
             }
@@ -18,6 +18,5 @@ public class ArrayEquality1 {
         } else {
             System.out.println("arrays are NOT same");
         }
-
     }
 }

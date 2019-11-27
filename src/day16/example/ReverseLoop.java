@@ -3,10 +3,17 @@ package day16.example;
 public class ReverseLoop {
     public static void main(String[] args) {
         System.out.println("normal");
+
         int[] myIntArray = new int[5];
+
         for (int i = 0; i < 5; i++) {
             System.out.print(i + " ");
         }
+
+
+
+
+
         //shortcuts in InteliJ IDEA
         //arr.for, gives for-each loop
         for (int i : myIntArray) {
