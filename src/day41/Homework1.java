@@ -1,4 +1,5 @@
 //*********************************************************************************************
+What will be the output of the following Java program?
 class X
 {
     //Class X Members
@@ -15,6 +16,7 @@ class Z extends X, Y
 }
 
 //*********************************************************************************************
+What will be the output of the following Java program?
 class A
 {
     int i = 10;
@@ -35,6 +37,7 @@ public class MainClass
     }
 }
 //*********************************************************************************************
+What will be the output of the following Java program?
 class A
 {
     {
@@ -64,6 +67,7 @@ public class MainClass
     }
 }
 //*********************************************************************************************
+What will be the output of the following Java program?
 class A
 {
     String s = "Class A";
@@ -97,6 +101,7 @@ public class MainClass
     }
 }
 //*********************************************************************************************
+What will be the output of the following Java program?
 class A
 {
     static
@@ -129,6 +134,7 @@ public class MainClass
     }
 }
 //*********************************************************************************************
+What will be the output of the following Java program?
 class A
 {
     public A()
@@ -162,6 +168,7 @@ public class MainClass
 }
 
 //*********************************************************************************************
+What will be the output of the following Java program?
 class X
 {
     static void staticMethod()
@@ -186,6 +193,7 @@ public class MainClass
     }
 }
 //*********************************************************************************************
+What will be the output of the following Java program?
 class X
 {
     public X(int i)
