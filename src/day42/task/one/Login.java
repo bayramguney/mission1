@@ -1,4 +1,4 @@
-package day42.task;
+package day42.task.one;
 
 public class Login {
 

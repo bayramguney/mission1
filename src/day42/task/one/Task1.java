@@ -1,4 +1,4 @@
-package day42.task;
+package day42.task.one;
 
 import org.junit.Assert;
 import org.junit.Test;
