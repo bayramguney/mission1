@@ -1,6 +1,6 @@
 package day42.task.two;
 
-public class Task2 {
+public class GeometryApp {
     // create base class Shape add attributes
     // create two subclass as Circle and Rectangle
 
