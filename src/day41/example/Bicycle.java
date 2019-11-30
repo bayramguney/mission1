@@ -1,4 +1,4 @@
-package day41;
+package day41.example;
 
 public class Bicycle {
     public int gear;

@@ -1,5 +1,8 @@
 package day40;
 
+import day40.example.Test1;
+import day40.example.Test2;
+
 public class OOP_Encapsulation {
     // Java OOP(Encapsulation)
 

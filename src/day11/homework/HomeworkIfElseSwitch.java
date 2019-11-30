@@ -120,7 +120,7 @@ public class HomeworkIfElseSwitch {
 ////3. Run- time error
 ////4. Today is fun day
 //
-//    public class MainClass {
+//    public class day41.homework.MainClass {
 
     //        enum day { MON,
 //            SAT,
@@ -148,7 +148,7 @@ public class HomeworkIfElseSwitch {
 ////3. Lets have fun!
 ////4. Compile time error
 //
-//    class MainClass {
+//    class day41.homework.MainClass {
 //    public static void main(String[] args) {
 //        int x = 10;
 //
@@ -163,7 +163,7 @@ public class HomeworkIfElseSwitch {
 ////3. No Output
 ////4. Run-time error
 //
-//    class MainClass {
+//    class day41.homework.MainClass {
 //        public static void main3(String[] args)
 //        {
 //            int x = 10;
@@ -184,7 +184,7 @@ public class HomeworkIfElseSwitch {
 ////3. TECHNO
 ////4. Compile time error
 //
-//    class MainClass {
+//    class day41.homework.MainClass {
 //    public static void main(String[] args) {
 //        int x = 10;
 //        final int y = 20;
@@ -205,7 +205,7 @@ public class HomeworkIfElseSwitch {
 ////4. NO Output
 ////Output:
 //
-//    class MainClass {
+//    class day41.homework.MainClass {
 //
 //        public static void main(String[] args)
 //        {
@@ -226,7 +226,7 @@ public class HomeworkIfElseSwitch {
 ////3. HELLO
 ////4. No Output
 //
-//    class MainClass {
+//    class day41.homework.MainClass {
 //        public static void main(String arg[])
 //        {
 //            char stream = 'C';

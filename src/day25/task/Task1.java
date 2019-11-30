@@ -3,7 +3,7 @@ package day25.task;
 import java.util.Scanner;
 
 public class Task1 {
-    //    2. Write a Java method to compute the average of three numbers. Go to the editor
+//    2. Write a Java method to compute the average of three numbers. Go to the editor
 //    Test Data:
 //    Input the first number: 25
 //    Input the second number: 45
