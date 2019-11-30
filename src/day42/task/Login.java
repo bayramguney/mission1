@@ -19,10 +19,16 @@ public class Login {
     }
 
     public void setPassword(String password) {
-        // check if password has at least one letter, only then assign password
-        this.password = password;
-        // else
-        // this.password = null;
+        // toCharArray
+        // if letter is a-z or A-Z
+        // then we have letter
+
+        if (password.contains("[a-zA-Z]+")) {
+            this.password = password;
+        } else {
+            this.password = null;
+        }
+
     }
 
     public boolean hasRememberMe() {
