@@ -33,13 +33,12 @@ public class Task1 {
         Assert.assertFalse(login.hasRememberMe());
     }
 
+    // write the code inside the set password
+    // if given string password includes at least one letter
     @Test
     public void test2() {
         Login login = new Login();
         login.setPassword("123123");
-
-        // write the code inside the set password
-        // if given string password includes at least one letter
 //        Assert.assertEquals(null, login.getPassword()); // don't use this
         Assert.assertNull(login.getPassword()); // we have only number, so that why it should return null
 
@@ -47,6 +46,9 @@ public class Task1 {
         login2.setPassword("mypass123");
         Assert.assertEquals("mypass123", login2.getPassword());
 
+        Login login3 = new Login();
+        login3.setPassword("MYpass");
+        Assert.assertEquals("MYpass", login3.getPassword());
     }
 
     @Test
