@@ -42,13 +42,15 @@ public class Task1 {
 
         // write the code inside the set password
         // if given string password includes at least one letter
-        
     }
+
+
+
 
     @Test
     public void test3() {
         // write the code inside the set password
-        // if given string password includes at least one character and number
+        // if given string password includes at least one number
     }
 
 }
