@@ -20,6 +20,8 @@ public class Car {
     public void setPassword(String pass) {
         if (pass.length() > 2) {
             password = pass;
+        }else {
+            password = null;
         }
     }
 

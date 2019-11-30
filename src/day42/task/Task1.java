@@ -43,7 +43,6 @@ public class Task1 {
         // write the code inside the set password
         // if given string password includes at least one letter
         
-
     }
 
     @Test
