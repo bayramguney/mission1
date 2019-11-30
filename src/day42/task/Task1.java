@@ -20,19 +20,36 @@ public class Task1 {
 
         String expected = "techno.study";
         String actual = login.getUsername();
-
         //check username
-        Assert.assertEquals(expected, actual);
+
+        // Assert.assertTrue(expected.equals(actual)); don't write it like this
+        Assert.assertEquals(expected, actual); // this is better
 
         //check password
+        Assert.assertEquals("123qwe", login.getPassword());
 
         //check rememberMe
+//        Assert.assertEquals(false, login.hasRememberMe()); // don't write it like this
+        Assert.assertFalse(login.hasRememberMe());
     }
 
     @Test
-    public void test2(){
-        //how do we write the code inside the set password
-        //if given string password includes at least one character and number
+    public void test2() {
+        Login login = new Login();
+        login.setUsername("techno.study");
+        login.setPassword("123123");
+        login.setRememberMe(false);
+
+        // write the code inside the set password
+        // if given string password includes at least one letter
+        
+
+    }
+
+    @Test
+    public void test3() {
+        // write the code inside the set password
+        // if given string password includes at least one character and number
     }
 
 }

@@ -19,7 +19,10 @@ public class Login {
     }
 
     public void setPassword(String password) {
+        // check if password has at least one letter, only then assign password
         this.password = password;
+        // else
+        // this.password = null;
     }
 
     public boolean hasRememberMe() {
