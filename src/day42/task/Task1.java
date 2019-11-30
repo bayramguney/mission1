@@ -51,10 +51,12 @@ public class Task1 {
         Assert.assertEquals("MYpass", login3.getPassword());
     }
 
+
+    // write the code inside the set password
+    // if given string password includes at least one number
     @Test
     public void test3() {
-        // write the code inside the set password
-        // if given string password includes at least one number
+
     }
 
 }

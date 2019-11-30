@@ -15,7 +15,7 @@ public class Login {
     }
 
     public String getPassword() {
-        return password;
+        return "#" + password + "#";
     }
 
     public void setPassword(String password) {
@@ -27,10 +27,12 @@ public class Login {
         }
     }
 
-
     private boolean hasAtLeastOneLetter(String password) {
+        //"123123"
         boolean hasLetter = false;
-        for (char letter : password.toCharArray()) {
+        char[] letters = password.toCharArray(); // {'1','2','3','1','2','3'}
+
+        for (char letter : letters) {
             if ((letter >= 'a' && letter <= 'z') // letter in a-z
                     || (letter >= 'A' && letter <= 'Z')) { //letter in A-Z
                 hasLetter = true;
