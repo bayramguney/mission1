@@ -31,7 +31,8 @@ public class Task1 {
 
     @Test
     public void test2(){
-        //how do we write the code inside the set password if given string password includes at least one character and number
+        //how do we write the code inside the set password
+        //if given string password includes at least one character and number
     }
 
 }
