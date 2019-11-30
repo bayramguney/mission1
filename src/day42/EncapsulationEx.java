@@ -1,6 +1,6 @@
 package day42;
 
-import day42.example.Car;
+import day42.example.encapsulation.Car;
 
 public class EncapsulationEx {
     //read only - accessible to get/read attributes/field

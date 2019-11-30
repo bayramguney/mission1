@@ -1,4 +1,4 @@
-package day42.example;
+package day42.example.encapsulation;
 
 public class Car {
     private String name;

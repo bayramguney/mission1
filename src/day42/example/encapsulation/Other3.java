@@ -1,6 +1,4 @@
-package day42.example;
-
-import day42.example.Car;
+package day42.example.encapsulation;
 
 public class Other3 {
 
