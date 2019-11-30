@@ -14,8 +14,5 @@ public class Task2 {
         circle.setFilled(true);
 
         Rectangle rectangle = new Rectangle("Yellow", true, 5, 3);
-
-
-
     }
 }
