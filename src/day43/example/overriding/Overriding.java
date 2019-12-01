@@ -3,13 +3,18 @@ package day43.example.overriding;
 public class Overriding {
 
     public static void main(String[] args) {
-//        Animal a = new Animal();
-//        a.sound();
-//
-//        Cat c = new Cat();
-//        c.sound();
+        Animal cat = new Cat();
+        Animal dog = new Dog();
+        Animal fox = new Fox();
+        cat.sound();
+        dog.sound();
+        fox.sound();
+        System.out.println("----------------------------------------");
 
-        Animal a = new Cat();
-        a.sound();
+        Animal[] animals = {new Cat(), new Dog(), new Fox()};
+        for (Animal animal : animals) {
+            animal.sound();
+        }
+
     }
 }

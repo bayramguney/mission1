@@ -1,18 +1,6 @@
-package day43.task;
+package day43.example.overriding;
 
-import day43.example.overriding.Animal;
-import day43.example.overriding.Cat;
-import day43.example.overriding.Dog;
-import day43.example.overriding.Fox;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class Task {
-    //create class Dog
-    //create class Fox
-    // override method sound
-    // and print every animals sound
+public class Overriding2 {
 
     public static void main(String[] args) {
         Animal cat = new Cat();
@@ -29,5 +17,4 @@ public class Task {
         }
 
     }
-
 }
