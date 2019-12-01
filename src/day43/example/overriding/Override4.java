@@ -1,15 +1,20 @@
 package day43.example.overriding;
 
 
-class A{
-    public static void m(){
+class Person {
+    public static void walk(){
 
     }
 }
 
-class B extends A{
+class Teacher extends Person {
 
+//    @Override
+//    public static void walk(){
+//
+//    }
 
 }
+
 public class Override4 {
 }
