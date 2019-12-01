@@ -6,4 +6,8 @@ public class Dog extends Animal {
     public void sound(){
         System.out.println("Dog woof");
     }
+
+    public void run(){
+        System.out.println("Dog runs");
+    }
 }

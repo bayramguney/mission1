@@ -6,6 +6,6 @@ public class Overriding2 {
         Animal animal = new Cat();
         animal.sound();
 
-        ((Cat) animal).sleep();
+         ((Cat) animal).sleep();
     }
 }
