@@ -62,18 +62,29 @@ public class Task3 {
 //        int actual = j1.getSalary() + j2.getSalary() + j3.getSalary();
 
         int sum = 0;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) { // 0 1 2
             TesterBaseSalary junior = new JuniorTesterSalary();
             sum += junior.getSalary();
         }
+
         int actual = sum;
-
         Assert.assertEquals(150_000, actual);
-
     }
 
     @Test
     public void testSumOfNMiddleSalary() {
         // create N middle testers, sum their salary, and check if you have N*$ 110_000 in total
+        // where N > 100
+        int N = 1000;
+        int sum = 0;
+        for (int i = 0; i < N; i++) { // 0 1 2
+            TesterBaseSalary junior = new MiddleTesterSalary();
+            sum += junior.getSalary();
+        }
+
+        int actual = sum;
+        Assert.assertEquals(N * 110_000, actual);
+
     }
+
 }
