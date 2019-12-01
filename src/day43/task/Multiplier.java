@@ -3,7 +3,6 @@ package day43.task;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
@@ -15,17 +14,40 @@ import java.util.List;
 //and test them using junit
 public class Multiplier {
 
-    public int multiply(int a, int b) {
+    int multiply(short a, short b) {
+        System.out.println("multiply(short a, short b)");
+        return a * b;
+    }
+
+    int multiply(int a, int b) {
         System.out.println("multiply(int a, int b)");
         return a * b;
     }
 
-    public int multiply(int a, int b, int c) {
+    int multiply(long a, long b) {
+        System.out.println("multiply(long a, long b)");
+        return (int) (a * b);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    int multiply(int a, int b, int c) {
         System.out.println("multiply(int a, int b, int c)");
         return a * b * c;
     }
 
-    public int multiply(List<Integer> list) {
+    int multiply(List<Integer> list) {
         int result = 1;
         for (Integer num : list) {
             result *= num;
@@ -34,17 +56,34 @@ public class Multiplier {
         return result;
     }
 
-    public double multiply(double a, double b) {
+    double multiply(double a, double b) {
         return a * b;
     }
 
     @Test
     public void multiplyTwoIntegers() {
-        int actual = multiply(2, 2);
+        int actual = multiply(2L, 2L);
         int expected = 4;
 
         Assert.assertEquals(expected, actual);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @Test
     public void multiplyThreeIntegers() {
@@ -66,7 +105,6 @@ public class Multiplier {
     public void multiplyTwoDoubles() {
         double actual = multiply(2.0, 2.0);
         double expected = 4.0;
-
 
         Assert.assertEquals(expected, actual, 1);
     }
