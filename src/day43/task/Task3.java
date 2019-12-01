@@ -1,5 +1,8 @@
 package day43.task;
 
+import day43.task.models.JuniorTesterSalary;
+import day43.task.models.MiddleTesterSalary;
+import day43.task.models.SeniorTesterSalary;
 import day43.task.models.TesterBaseSalary;
 
 import org.junit.Assert;
@@ -33,6 +36,26 @@ public class Task3 {
         int expected = 100_000;
 
         Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testJunior() {
+        JuniorTesterSalary j = new JuniorTesterSalary();
+        Assert.assertEquals(50_000, j.getSalary());
+    }
+
+    @Test
+    public void testMiddle() {
+        MiddleTesterSalary m = new MiddleTesterSalary();
+        Assert.assertEquals(110_000, m.getSalary());
+
+    }
+
+    @Test
+    public void testSenior() {
+        SeniorTesterSalary m = new SeniorTesterSalary();
+        Assert.assertEquals(200_000, m.getSalary());
+
     }
 
 }
