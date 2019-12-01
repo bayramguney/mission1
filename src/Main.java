@@ -1,11 +1,21 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.TreeMap;
+import java.lang.*;
 
 public class Main {
 
+    public static int class_variable;
+
+    public int money;
+
     public static void main(String[] args) {
-        System.out.println("asd".matches("[a-zA-Z]+"));
+        Main m = new Main();
+        System.out.println(m.money);
+        int $;
+        System.out.println();
+
+
+        if (true)
+            System.out.println();
+
     }
 
 }
