@@ -3,6 +3,8 @@ package day43.example;
 import day43.task.models.JuniorTesterSalary;
 import day43.task.models.SeniorTesterSalary;
 import day43.task.models.TesterBaseSalary;
+import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +27,33 @@ public class JavaInstanceOf2 {
             }
         }
 
+    }
 
+
+    // this method will check if given vegetable is potato
+    public boolean checkForPotato(Vegetable v) {
+        if (v instanceof Potato) {
+            return true;
+        } else {
+            return false;
+        }
+        //2.way
+        // return (v instanceof Potato);
+    }
+
+    @Test
+    public void testForPotato1() {
+        Potato p = new Potato();
+        boolean actual = checkForPotato(p);
+
+        Assert.assertTrue(actual);
+    }
+
+    @Test
+    public void testForPotato2() {
+        Onion o = new Onion();
+        boolean actual = checkForPotato(o);
+
+        Assert.assertFalse(actual);
     }
 }
