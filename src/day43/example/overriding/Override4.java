@@ -13,7 +13,7 @@ class Person {
 }
 
 class Teacher extends Person {
-    //    @Override - cannot override because of static
+    //@Override -> cannot override because of static
     public static void walk() {
     }
 
