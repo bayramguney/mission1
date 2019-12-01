@@ -1,4 +1,4 @@
-package day43.example;
+package day43.example.instanceOf;
 
 import day43.task.models.JuniorTesterSalary;
 import day43.task.models.SeniorTesterSalary;
