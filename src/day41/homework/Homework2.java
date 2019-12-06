@@ -1,26 +1,41 @@
 package day41.homework;
-//
+
+public class Homework2 {
+
+}
+
+//can have abstract and nonabstract methods
+abstract class Shape {
+    public int x;
+    public int y;
+
+    public void NonAbstractMethod() {
+        System.out.println ( "Printing non abstract method" );
+    }
+    public abstract void draw();
+}
+
 //Which two classes use the Shape class correctly?
+//A.public class Circle  implements Shape
+//{
+//}
+//B.
+abstract class Circle extends Shape {
+    private int radius;
+}
+
+//C.public class Circle extends Shape {
+//    private int radius;
 //
-//A. public class Circle implements Shape
-//   {
-//    private int radius;
-//   }
-//B. public abstract class Circle extends Shape
-//   {
-//    private int radius;
-//   }
-//C. public class Circle extends Shape
-//   {
-//   private int radius;
-//   public void draw();
-//   }
+//    public void draw();
+//}
 //D. public abstract class Circle implements Shape
 //   {
 //    private int radius;
 //    public void draw();
 //   }
-//E. public class Circle extends Shape
+//E.
+//class Circle extends Shape
 //   {
 //    private int radius;
 //    public void draw()
@@ -28,7 +43,7 @@ package day41.homework;
 //     /* code here */
 //    }
 //   }
-//F. public abstract class Circle implements Shape
+//F.public abstract class Circle implements Shape
 //   {
 //     private int radius;
 //     public void draw()
@@ -40,7 +55,8 @@ package day41.homework;
 //b) A,C
 //c) C,E
 //d) T,H
-//
+
+
 //What will be the output of the following Java program?
 //
 //    class A
