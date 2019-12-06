@@ -1,9 +1,7 @@
 package day44.task;
 
 public abstract class BaseClass {
-
     public abstract void study();
-
     //abstract can only have for methods and classes
     //you have to create Derived class that inherits from BaseClass
     //your BaseClass has to have abstract void method called study()
