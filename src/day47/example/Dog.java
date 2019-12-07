@@ -7,4 +7,9 @@ public class Dog extends AbstractAnimal {
         System.out.println ("Bark");
     }
 
+    @Override
+    public void eat() {
+        System.out.println ("Eats dog food");
+    }
+
 }
