@@ -1,4 +1,4 @@
-package day44.task;
+package day45.task;
 
 public abstract class BaseClass {
     public abstract void study();

@@ -1,4 +1,4 @@
-package day44.example;
+package day45.example;
 
 class TestAbstractConcept {
     public static void main(String[] args) {
