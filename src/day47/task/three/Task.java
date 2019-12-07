@@ -12,7 +12,7 @@ public class Task {
 
     public static void main(String[] args) {
         // ReadFile file = new WordFile();
-        ReadFile file = new PowerPointFile();
+        ReadFile file = new DmgFile();
         // apache poi
 
 
