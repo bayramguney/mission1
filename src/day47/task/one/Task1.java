@@ -1,5 +1,7 @@
 package day47.task.one;
 
+import java.util.ArrayList;
+
 abstract class AbstractLogin {
     public abstract void testLogin();
 
