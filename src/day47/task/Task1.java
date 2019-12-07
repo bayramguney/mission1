@@ -5,5 +5,5 @@ public class Task1 {
     // add abstract method: testLogin
     // create 3 subclasses as AdminLogin, ManagerLogin, UserLogin
     // and implement method testLogin
-
+    
 }
