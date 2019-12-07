@@ -1,4 +1,4 @@
-package day47.example;
+package day47.example.javaAbstract;
 
 public class Dog extends AbstractAnimal {
 
@@ -10,6 +10,12 @@ public class Dog extends AbstractAnimal {
     @Override
     public void eat() {
         System.out.println ("Eats dog food");
+    }
+
+    @Override
+    public void fly() {
+        // remove method
+        // don't ever use
     }
 
 }

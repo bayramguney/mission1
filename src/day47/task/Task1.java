@@ -10,36 +10,36 @@ class AdminLogin extends AbstractLogin {
 
     @Override
     public void testLogin() {
-        System.out.println ( "testing admin login" );
+        System.out.println( "testing admin login" );
     }
 
     @Override
     public void testPassword() {
-        System.out.println ( "test password of admin" );
+        System.out.println( "test password of admin" );
     }
 }
 
 class ManagerLogin extends AbstractLogin {
     @Override
     public void testLogin() {
-        System.out.println ( "testing manager login" );
+        System.out.println( "testing manager login" );
     }
 
     @Override
     public void testPassword() {
-        System.out.println ( "test password of manager" );
+        System.out.println( "test password of manager" );
     }
 }
 
 class UserLogin extends AbstractLogin {
     @Override
     public void testLogin() {
-        System.out.println ( "testing user login" );
+        System.out.println( "testing user login" );
     }
 
     @Override
     public void testPassword() {
-        System.out.println ( "test password of user" );
+        System.out.println( "test password of user" );
     }
 }
 
@@ -53,10 +53,10 @@ public class Task1 {
 
 
     public static void main(String[] args) {
-        AbstractLogin admin = new AdminLogin ();
-        AbstractLogin manager = new ManagerLogin ();
-        AbstractLogin user = new UserLogin ();
+        AbstractLogin admin = new AdminLogin();
+        AbstractLogin manager = new ManagerLogin();
+        AbstractLogin user = new UserLogin();
 
-
+        admin.testLogin();
     }
 }

@@ -1,4 +1,6 @@
-package day47.example;
+package day47.example.javaAbstract;
+
+import day47.example.Cat;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +13,7 @@ public class Ex1 {
         d.eat ();
         d.sound ();
 
-        AbstractAnimal c = new Cat ();
+        AbstractAnimal c = new Cat();
         c.eat ();
         c.sound ();
 
