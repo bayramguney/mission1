@@ -8,4 +8,7 @@ public class Task2 {
 
     //part2
     // add interfaces for flying vehicles and vehicles in sea
+
+    //part3
+    // create class SpaceShip
 }
