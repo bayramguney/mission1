@@ -1,4 +1,4 @@
-package day47.task;
+package day47.task.one;
 
 abstract class AbstractLogin {
     public abstract void testLogin();
