@@ -5,11 +5,16 @@ public class Dog implements Animal {
     private double minCal;
     private double maxCal;
 
+    public Dog() {
+
+    }
+    
     public Dog(String breed, double minCal, double maxCal) {
         this.breed = breed;
         this.minCal = minCal;
         this.maxCal = maxCal;
     }
+
 
     @Override
     public void sound() {

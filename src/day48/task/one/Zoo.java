@@ -49,17 +49,17 @@ public class Zoo {
         System.out.println( "----------------------" );
     }
 
-//    private List<Animal> populateList() {
-//        List<Animal> animals = new ArrayList<>();
-//        for(int i = 0; i < 5; i++) {
-//            animals.add( new Cat() );
-//        }
-//
-//        for(int i = 0; i < 4; i++) {
-//            animals.add( new Dog() );
-//        }
-//        animals.add( new Fish() );
-//
-//        return animals;
-//    }
+    private List<Animal> populateList() {
+        List<Animal> animals = new ArrayList<>();
+        for(int i = 0; i < 5; i++) {
+            animals.add( new Cat() );
+        }
+
+        for(int i = 0; i < 4; i++) {
+            animals.add( new Dog() );
+        }
+        animals.add( new Fish() );
+
+        return animals;
+    }
 }
