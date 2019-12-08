@@ -1,5 +1,13 @@
 package day48.task.one;
 
+import day48.task.one.animals.Animal;
+import day48.task.one.animals.Cat;
+import day48.task.one.animals.Dog;
+import day48.task.one.animals.Fish;
+import day48.task.one.food.DogFood;
+import day48.task.one.food.FishFood;
+import day48.task.one.food.Food;
+
 import java.util.ArrayList;
 import java.util.List;
 

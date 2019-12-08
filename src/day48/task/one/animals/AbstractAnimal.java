@@ -1,4 +1,4 @@
-package day48.task.one;
+package day48.task.one.animals;
 
 public abstract class AbstractAnimal {
     private String breed;

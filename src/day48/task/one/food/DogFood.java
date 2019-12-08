@@ -1,4 +1,4 @@
-package day48.task.one;
+package day48.task.one.food;
 
 public class DogFood extends Food {
 
