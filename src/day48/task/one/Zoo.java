@@ -12,12 +12,21 @@ public class Zoo {
         // print sounds
         printAnimalSounds( animals );
 
+        // instanceof
+        for(Animal animal : animals) {
+            if(animal instanceof Fish){
+                System.out.println("I've special animal in my Zoo");
+            }
+        }
+        System.out.println("----------------------");
+
     }
 
     private static void printAnimalSounds(List<Animal> animals) {
         for(Animal animal : animals) {
             animal.sound();
         }
+        System.out.println("----------------------");
     }
 
     private List<Animal> populateList() {
