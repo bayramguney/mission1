@@ -10,6 +10,7 @@ public class Dog implements Animal {
 
     @Override
     public void feed(Food food) {
+        //if statements
         System.out.println( food.getName() + " - " + food.getCal() );
     }
 }

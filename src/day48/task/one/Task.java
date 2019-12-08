@@ -31,9 +31,8 @@ public class Task {
     // fish eats something, TetraVeggie Algae Wafer
 
     //part6
-    // add attributes to animals,
-    // so that you can control calories
-    // that you give to your animals
+    //a) add attributes to animals,
+    //b) so that you can control calories that you give to your animals
     // Hint: Inheritance
 
 }
