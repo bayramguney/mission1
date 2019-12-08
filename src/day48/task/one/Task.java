@@ -1,5 +1,6 @@
 package day48.task.one;
 
+// open-ended
 public class Task {
     // create interface animal
     // create 3 animals classes implementing animal interface
@@ -21,7 +22,7 @@ public class Task {
     // create class Food
     // add attributes and encapsulate it
 
-    //part5: open-ended
+    //part5:
     // create objects of Food
     // feed your animals
     // Hint: feed is action and action is method
@@ -33,5 +34,6 @@ public class Task {
     // add attributes to animals,
     // so that you can control calories
     // that you give to your animals
+    // Hint: Inheritance
 
 }
