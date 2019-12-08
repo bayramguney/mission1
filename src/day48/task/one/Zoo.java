@@ -7,32 +7,37 @@ public class Zoo {
 
     public static void main(String[] args) {
         Zoo zoo = new Zoo();
+
+
         List<Animal> animals = zoo.populateList();
 
         // print sounds
-        printAnimalSounds( animals );
+        zoo.printAnimalSounds( animals );
 
-        // instanceof
-        checkForSpecialAnimalFish( animals );
+        // instanceof: to check if object is class of Fish
+        zoo.checkForSpecialAnimalFish( animals );
 
 
-
+        Food dogFood = new Food( "Pedigree", 10.90, 700 );
+        Food fishFood = new Food( "Algae Wafer", 7.00, 200 );
+        Food catFood = new Food( "Whiskas", 5.99, 900 );
     }
 
-    private static void checkForSpecialAnimalFish(List<Animal> animals) {
+
+    private void checkForSpecialAnimalFish(List<Animal> animals) {
         for(Animal animal : animals) {
-            if(animal instanceof Fish){
-                System.out.println("I've special animal in my Zoo");
+            if(animal instanceof Fish) {
+                System.out.println( "I've special animal in my Zoo" );
             }
         }
-        System.out.println("----------------------");
+        System.out.println( "----------------------" );
     }
 
-    private static void printAnimalSounds(List<Animal> animals) {
+    private void printAnimalSounds(List<Animal> animals) {
         for(Animal animal : animals) {
             animal.sound();
         }
-        System.out.println("----------------------");
+        System.out.println( "----------------------" );
     }
 
     private List<Animal> populateList() {
