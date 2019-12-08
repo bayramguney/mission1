@@ -21,4 +21,8 @@ public class Task {
     // create class Food
     // add attributes and encapsulate it
 
+    //part5
+    // create objects of Food
+    // feed your animals
+
 }
