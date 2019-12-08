@@ -13,13 +13,19 @@ public class Zoo {
         printAnimalSounds( animals );
 
         // instanceof
+        checkForSpecialAnimalFish( animals );
+
+
+
+    }
+
+    private static void checkForSpecialAnimalFish(List<Animal> animals) {
         for(Animal animal : animals) {
             if(animal instanceof Fish){
                 System.out.println("I've special animal in my Zoo");
             }
         }
         System.out.println("----------------------");
-
     }
 
     private static void printAnimalSounds(List<Animal> animals) {
