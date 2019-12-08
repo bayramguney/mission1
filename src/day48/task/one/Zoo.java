@@ -6,6 +6,21 @@ import java.util.List;
 public class Zoo {
 
     public static void main(String[] args) {
+        Zoo zoo = new Zoo();
+        List<Animal> animals = zoo.populateList();
+
+        // print sounds
+        printAnimalSounds( animals );
+
+    }
+
+    private static void printAnimalSounds(List<Animal> animals) {
+        for(Animal animal : animals) {
+            animal.sound();
+        }
+    }
+
+    private List<Animal> populateList() {
         List<Animal> animals = new ArrayList<>();
         for(int i = 0; i < 5; i++) {
             animals.add( new Cat() );
@@ -16,8 +31,6 @@ public class Zoo {
         }
         animals.add( new Fish() );
 
-        for(Animal animal : animals) {
-            animal.sound();
-        }
+        return animals;
     }
 }
