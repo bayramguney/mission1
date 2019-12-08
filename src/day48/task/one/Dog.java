@@ -1,6 +1,6 @@
 package day48.task.one;
 
-public class Dog extends AnimalBase implements Animal {
+public class Dog extends AbstractAnimal implements Animal {
 
     public Dog() {
     }

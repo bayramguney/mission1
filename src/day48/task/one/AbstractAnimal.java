@@ -1,6 +1,6 @@
 package day48.task.one;
 
-public abstract class AnimalBase {
+public abstract class AbstractAnimal {
     private String breed;
     private double minCal;
     private double maxCal;
