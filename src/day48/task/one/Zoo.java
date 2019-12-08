@@ -21,6 +21,9 @@ public class Zoo {
         Food dogFood = new Food( "Pedigree", 10.90, 700 );
         Food fishFood = new Food( "Algae Wafer", 7.00, 200 );
         Food catFood = new Food( "Whiskas", 5.99, 900 );
+
+        Dog d = new Dog();
+        d.feed( dogFood );
     }
 
 

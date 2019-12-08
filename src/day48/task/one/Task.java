@@ -24,10 +24,14 @@ public class Task {
     //part5: open-ended
     // create objects of Food
     // feed your animals
-
+    // Hint: feed is action and action is method
     // dog eats dog food, pedigree
     // cat eats cat food, whiskas
     // fish eats something, TetraVeggie Algae Wafer
 
+    //part6
+    // add attributes to animals,
+    // so that you can control calories
+    // that you give to your animals
 
 }

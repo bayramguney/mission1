@@ -5,4 +5,9 @@ public class Fish implements Animal {
     public void sound() {
         System.out.println("silent");
     }
+
+    @Override
+    public void feed(Food food) {
+
+    }
 }
