@@ -1,7 +1,15 @@
 package day48.task.one;
 
-public class Dog implements Animal {
+public class Dog extends AnimalBase implements Animal {
 
+    public Dog() {
+    }
+
+    public Dog(String breed, double minCal, double maxCal) {
+        setBreed( breed );
+        setMinCal( minCal );
+        setMaxCal( maxCal );
+    }
 
     @Override
     public void sound() {

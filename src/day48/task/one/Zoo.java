@@ -23,7 +23,10 @@ public class Zoo {
         Food catFood = new Food( "Whiskas", 5.99, 900 );
 
         Dog d = new Dog();
+        d.setMaxCal( 1000 );
+        d.setMinCal( 700 );
         d.feed( dogFood );
+
     }
 
 
