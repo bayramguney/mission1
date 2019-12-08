@@ -18,5 +18,7 @@ public class Task {
     // hint: instanceof
 
     //part4
+    // create class Food
+    // add attributes and encapsulate it
 
 }
