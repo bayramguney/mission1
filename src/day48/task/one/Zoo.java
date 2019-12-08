@@ -17,18 +17,17 @@ public class Zoo {
 //        // instanceof: to check if object is class of Fish
 //        zoo.checkForSpecialAnimalFish( animals );
 //
-//        Food fishFood = new Food( "Algae Wafer", 7.00, 200 );
 //        Food catFood = new Food( "Whiskas", 5.99, 900 );
+//        Food bread = new DogFood( "Bread", 1.0, 100 );
+//        Food extra = new DogFood( "BBQ", 5.0, 2000 );
 
 
         Dog husky = new Dog( "Husky", 700, 900 ); // Husky, 700 - 900
 
         // giving 600cal dog still hungry
         // giving 1200cal dog over eating
-        Food dogFood = new Food( "Pedigree", 10.90, 700 );
-
-        Food bread = new Food( "Bread", 1.0, 100 );
-        Food extra = new Food( "BBQ", 5.0, 2000 );
+        Food dogFood = new DogFood( "Pedigree", 10.90, 700 );
+        Food fishFood = new FishFood( "Algae Wafer", 7.00, 200 );
         husky.feed( dogFood );
     }
 

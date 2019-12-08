@@ -35,6 +35,10 @@ public class Task {
     //b) so that you can control calories that you give to your animals
     // Hint: Inheritance
 
+    //part7
+    // check food before feed your animal
+    // for ex: don't feed dog with cat's food
+
 
 
 }
