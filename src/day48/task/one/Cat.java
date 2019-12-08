@@ -1,6 +1,6 @@
 package day48.task.one;
 
-public class Cat implements Animal {
+public class Cat extends AbstractAnimal implements Animal {
 
 
     @Override

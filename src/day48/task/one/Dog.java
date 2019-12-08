@@ -1,14 +1,14 @@
 package day48.task.one;
 
-public class Dog extends AbstractAnimal implements Animal {
-
-    public Dog() {
-    }
+public class Dog implements Animal {
+    private String breed;
+    private double minCal;
+    private double maxCal;
 
     public Dog(String breed, double minCal, double maxCal) {
-        setBreed( breed );
-        setMinCal( minCal );
-        setMaxCal( maxCal );
+        this.breed = breed;
+        this.minCal = minCal;
+        this.maxCal = maxCal;
     }
 
     @Override
@@ -18,6 +18,14 @@ public class Dog extends AbstractAnimal implements Animal {
 
     @Override
     public void feed(Food food) {
+        if(food.getCal() < minCal) {
+            System.out.println( "Still hungry!!! uuuu" );
+        } else if(food.getCal() > maxCal) {
+            System.out.println( "Over eating, fat dog" );
+        } else {
+            System.out.println( "Healthy dog, good boy" );
+        }
+
         //if statements
         System.out.println( food.getName() + " - " + food.getCal() );
     }
